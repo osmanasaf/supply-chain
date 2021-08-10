@@ -1,0 +1,14 @@
+
+OrdererOrgs:
+  - Name: Orderer
+    Domain: loonycorn.com
+    Specs:
+      - Hostname: orderer
+
+PeerOrgs:
+  - Name: Org1
+    Domain: org1.loonycorn.com
+    Template:
+      Count: 1
+    Users:
+      Count: 1
